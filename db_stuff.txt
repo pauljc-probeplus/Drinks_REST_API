@@ -1,0 +1,9 @@
+with app.app_context():
+    db.session.add(Drink(name="Cherry", desc="tastes like cherry"))
+    db.session.commit()
+ 
+ with app.app_context():
+    drinks = Drink.query.all()
+    for drink in drinks:
+        print(drink)
+
