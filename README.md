@@ -1,1 +1,1 @@
-This is aflask application that shows a simple REST API implementation.It has endpoints to get a drink,add a drink,delete a drink and update a drink.It also consist of an endpoint to get all drinks. The application makes use of sqlite and sqlalchemy. 
+This is a flask application that shows a simple REST API implementation.It has endpoints to get a drink,add a drink,delete a drink and update a drink.It also consist of an endpoint to get all drinks. The application makes use of sqlite and sqlalchemy. 
